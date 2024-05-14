@@ -10,7 +10,12 @@ The data consisted of 11,991 unique employees and 10 features. The features incl
 
 ![employee_status](Images/Employee_status.jpeg)
 
-## Modeling and Evaluation
+In connection with this, one new feature was engineered based on the average monthly working hours. This feature, 'overworked,' represents whether the employee was overworked (>170 hours per month) or not. Furthermore, when building the final champion model, the satisfaction level of the employees is removed from the analysis as the company may not always have this information for all the employees.
 
-
+## [Modeling and Evaluation](https://github.com/salaikht9228/Salifort-Motors-Portfolio-Project/blob/main/Salifort%20Motors%20HR%20project-Copy4.ipynb)
+A Decision Tree Classification was used to determine the feature importance of predicting whether employees will stay or leave. The plot below shows that the number of assigned projects, last evaluation scores, tenure of work, and whether an employee is overworked were the most important factors in determining the likelihood of employees leaving the company. The overall model performed with 94% accuracy and 91% recall.
+ 
+ ![feature_importance](Images/Feature_Importance.jpeg)
+ 
 ## Conclusion
+This model can significantly benefit Salifort Motors by identifying at-risk employees who may be considering leaving the company. Additionally, the model provides insights into areas of the work environment that could be improved to enhance employee retention. For instance, limiting the number of projects assigned to employees and promoting those who have been with the company for over three years and consistently work long hours may be effective strategies. For future model fine-tuning, developing a version that excludes the last evaluation scores may be prudent. This is because these scores might not be available for all employees and could introduce data leakage, as those with low scores might already be notified of their potential dismissal or be planning to leave the company.
