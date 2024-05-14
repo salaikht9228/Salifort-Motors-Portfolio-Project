@@ -6,7 +6,9 @@ This project aimed to create a decision tree, random forest, and XGBoost model t
 According to insights from vervoe.com, the average cost of hiring an employee in the US is approximately $4,700, and it typically takes around 6.2 months to train a new employee to reach full productivity. Therefore, retaining current employees and reducing high turnover rates can significantly mitigate the additional costs and time associated with hiring and training new staff. Developing a machine learning classification model to predict the likelihood of employee attrition could be instrumental in identifying at-risk employees and implementing targeted retention strategies.
 
 ## Data Understanding
+The data consisted of 11,991 unique employees and 10 features. The features included information on employees' satisfaction level, last evaluation scores, number of assign projects, average monthly working hours, tenure of work, whether or not employee experienced an accident, whether or not employee left the company, whether or not the employee was promoted in the last 5 years, the employee's department and the employee's salary. The bar graph below shows how many employees stayed or left the company in the data set.
 
+![employee_status](Images/Employee_status.jpeg)
 
 ## Modeling and Evaluation
 
